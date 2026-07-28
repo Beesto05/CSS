@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+    <style>
+        p::first-line{
+            font-weight: bold;
+        }
+        p::first-letter{
+            color: red;
+            font-size: larger;
+        }
+        h3 + h3{
+            color: green;
+        }
+        a{
+            text-decoration: none;
+        }
+        
+        a:link{
+            color: blue;
+        }
+        a:visited{
+            color: purple;
+        }
+        a:hover {
+            color: yellow;
+            text-decoration: underline;
+        }
+        ul li:first-child a{
+            color: red;
+        }
+        div > p{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <h1 style="text-align: center;"><ins>About CSS</ins></h1>
+    <div>
+    <p>CSS is used to style web pages. It helps make websites attractive and easy to read.</p>
+    </div>
+    <p>Selectors are used to target HTML elements. They allow different styles for different parts of a webpage.</p>
+    <div>
+        <h3>HTML Basics</h3>
+        <h3>CSS Basics</h3>
+        <h4>Useful links:</h4>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <a href="https://www.w3schools.com/html/html_basic.asp" >W3Schools</a>
+            </li>
+            <li>
+                <a class="link" href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content">MDN Web Docs</a>
+            </li>
+            <li>
+                <a class="visited" href="https://www.google.com/search?q=html+basics&oq=html+basics&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDUwMDJqMGo3qAIIsAIB8QUNpdTntyDanfEFDaXU57cg2p0&sourceid=chrome&source=chrome.ob&ie=UTF-8">Google</a>
+            </li>
+        </ul>
+    </div>
+    
+</body>
+</html>
