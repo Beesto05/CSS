@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Post</title>
+    <style>
+        .blog-post{
+            border: 2px solid black;
+            width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+
+        }
+        p::first-line{
+            font-weight: bold;
+        }
+        p::first-letter{
+            font-size: 40px;
+            color: blue;
+        }
+        blockquote::before{
+            content: "“";
+            font-size: 30px;
+            color: red;
+        }
+        blockquote{
+            font-style: italic;
+            background-color: lightgray;
+            padding: 15px;
+        }
+        
+        a:link{
+            color: blue;
+        }
+        a:visited{
+            color: purple;
+        }
+        a:hover{
+            color: red;
+        }
+        h4 + h4{
+            color:green;
+            font-size: 20px;
+        }
+        .heading{
+            display: flex;
+            gap: 30px;
+        }
+        .blog-post h1{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="blog-post">
+        <h1>Future Of Technology</h1>
+        <h3>Author: Ashik</h3>
+        <p>Technology is changing the way we live and work.
+            It has become an important part of our daily life.
+            From education to business, technology helps us
+            complete our work faster and more efficiently.
+        </p>
+        <blockquote>
+            Technology is the future of our world.
+        </blockquote>
+        <a href="https://www.google.com">Read More</a>
+        <div class="heading">
+            <h4>Author Information</h4>
+            <h4>Published Date</h4>
+        </div>
+    </div>
+    
+</body>
+</html>
