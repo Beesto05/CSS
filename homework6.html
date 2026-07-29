@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a[href^="https"]{
+            color:red;
+        }
+        img[src$=".jpg"]{
+            border-radius: 0 30px 0 30px;
+            width: 300px;
+        }
+        @media (max-width:600px){
+            .blog{
+                flex-direction: column;
+            }
+        }
+        @media (orientation: portrait){
+            h1{
+                background-color: yellow;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Featured blog section</h1>
+    <div class="blog">
+        <div class="blog-post">
+        <h2><ins>Blog Post 1</ins></h2>
+        <img src="ladakh.jpg" alt="Ladakh">
+        <a href="https://youtu.be/qCcLus0yNSg?si=7TloklrasC-oOAQj">Read more</a>
+        </div>
+        <div>
+            <h2><ins>Blog Post 2</ins></h2>
+            <img src="food.jpg" alt="Food">
+            <a href="https://en.wikipedia.org/wiki/Food">Read More</a>
+        </div>
+
+
+    </div>
+</body>
+</html>
